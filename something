@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clicker Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎮 Clicker Game</h1>
+            <p class="subtitle">Click to earn money!</p>
+        </div>
+
+        <div class="stats">
+            <div class="stat-box">
+                <p class="label">Money</p>
+                <p class="value" id="money">$0</p>
+            </div>
+            <div class="stat-box">
+                <p class="label">Per Second</p>
+                <p class="value" id="perSecond">$0/s</p>
+            </div>
+            <div class="stat-box">
+                <p class="label">Total Clicks</p>
+                <p class="value" id="clicks">0</p>
+            </div>
+        </div>
+
+        <button class="click-button" id="clickBtn">💰 CLICK ME!</button>
+
+        <div class="content">
+            <div class="upgrades-section">
+                <h2>🎁 Upgrades</h2>
+                <div class="upgrades" id="upgrades"></div>
+            </div>
+
+            <div class="buildings-section">
+                <h2>🏢 Buildings</h2>
+                <div class="buildings" id="buildings"></div>
+            </div>
+        </div>
+
+        <button class="reset-btn" id="resetBtn">Reset Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
